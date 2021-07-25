@@ -1,5 +1,5 @@
 import { IconProps, IconType } from "../../types";
-import { NotificationIcon } from "./NotificationIcon";
+import { ContactIcon } from "./ContactIcon";
 import { ProfileIcon } from "./ProfileIcon";
 import { ProjectsIcon } from "./ProjectsIcon";
 import { SkillsIcon } from "./SkillsIcon";
@@ -20,8 +20,8 @@ const Icon: React.FunctionComponent<Props> = ({
     switch (iconType) {
       case IconType.profile:
         return <ProfileIcon {...iconProps} />;
-      case IconType.notification:
-        return <NotificationIcon {...iconProps} />;
+      case IconType.contact:
+        return <ContactIcon {...iconProps} />;
       case IconType.projects:
         return <ProjectsIcon {...iconProps} />;
       case IconType.skills:

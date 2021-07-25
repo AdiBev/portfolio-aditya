@@ -6,7 +6,7 @@ export interface IconProps {
 }
 
 export enum IconType {
-  notification = "notification",
+  contact = "contact",
   profile = "profile",
   projects = "projects",
   skills = "skills",
