@@ -1,6 +1,6 @@
 import { IconProps } from "../../types";
 
-export const NotificationIcon: React.FunctionComponent<IconProps> = ({
+export const ContactIcon: React.FunctionComponent<IconProps> = ({
   color,
   height,
   width,
