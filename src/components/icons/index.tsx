@@ -16,6 +16,7 @@ const Icon: React.FunctionComponent<Props> = ({
   className,
 }) => {
   const iconProps = { color, height, width, className };
+
   const getIcon = () => {
     switch (iconType) {
       case IconType.profile:
@@ -26,6 +27,9 @@ const Icon: React.FunctionComponent<Props> = ({
         return <ProjectsIcon {...iconProps} />;
       case IconType.skills:
         return <SkillsIcon {...iconProps} />;
+
+      default:
+        return null;
     }
   };
 
