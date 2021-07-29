@@ -10,6 +10,9 @@ export enum IconType {
   profile = "profile",
   projects = "projects",
   skills = "skills",
+  github = "github",
+  linkedin = "linkedin",
+  email = "email",
 }
 
 export enum ThemeType {

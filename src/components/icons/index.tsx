@@ -1,5 +1,8 @@
 import { IconProps, IconType } from "../../types";
 import { ContactIcon } from "./ContactIcon";
+import { EmailIcon } from "./EmailIcon";
+import { GithubIcon } from "./GithubIcon";
+import { LinkedinIcon } from "./LinkedinIcon";
 import { ProfileIcon } from "./ProfileIcon";
 import { ProjectsIcon } from "./ProjectsIcon";
 import { SkillsIcon } from "./SkillsIcon";
@@ -27,7 +30,12 @@ const Icon: React.FunctionComponent<Props> = ({
         return <ProjectsIcon {...iconProps} />;
       case IconType.skills:
         return <SkillsIcon {...iconProps} />;
-
+      case IconType.linkedin:
+        return <LinkedinIcon {...iconProps} />;
+      case IconType.github:
+        return <GithubIcon {...iconProps} />;
+      case IconType.email:
+        return <EmailIcon {...iconProps} />;
       default:
         return null;
     }
