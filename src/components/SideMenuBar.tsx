@@ -57,6 +57,9 @@ export const SideMenuBar: React.FunctionComponent<Props> = ({
     IconType.contact,
   ];
 
+  // adding hash to url directly since react router is not used
+  const addHashLink = (hash: IconType) => (window.location.hash = hash);
+
   return (
     <Drawer
       anchor="left"
@@ -72,7 +75,11 @@ export const SideMenuBar: React.FunctionComponent<Props> = ({
             placement="right"
             key={iconType}
           >
-            <ListItem button className={classes.listButton}>
+            <ListItem
+              button
+              className={classes.listButton}
+              onClick={() => addHashLink(iconType)}
+            >
               <ListItemIcon className={classes.iconItem}>
                 <Icon
                   iconType={iconType}
