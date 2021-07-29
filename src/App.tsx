@@ -7,6 +7,9 @@ import { Profile } from "./components/Profile";
 import { ThemeType } from "./types";
 import { themePicker } from "./themePicker";
 import { SkillsList } from "./components/SkillsList";
+import { ProjectsList } from "./components/ProjectsList";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 const useStyle = makeStyles((theme) => ({
   main: {
@@ -32,7 +35,10 @@ function App() {
         <Container>
           <Profile />
           <SkillsList />
+          <ProjectsList />
+          <Contact />
         </Container>
+        <Footer />
       </main>
     </MuiThemeProvider>
   );
