@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-aditya/static/css/main.e7f3b300.chunk.css",
+    "main.js": "/portfolio-aditya/static/js/main.1bbb4037.chunk.js",
+    "main.js.map": "/portfolio-aditya/static/js/main.1bbb4037.chunk.js.map",
+    "runtime-main.js": "/portfolio-aditya/static/js/runtime-main.b475f16c.js",
+    "runtime-main.js.map": "/portfolio-aditya/static/js/runtime-main.b475f16c.js.map",
+    "static/js/2.1e28416e.chunk.js": "/portfolio-aditya/static/js/2.1e28416e.chunk.js",
+    "static/js/2.1e28416e.chunk.js.map": "/portfolio-aditya/static/js/2.1e28416e.chunk.js.map",
+    "static/js/3.4b47fa7b.chunk.js": "/portfolio-aditya/static/js/3.4b47fa7b.chunk.js",
+    "static/js/3.4b47fa7b.chunk.js.map": "/portfolio-aditya/static/js/3.4b47fa7b.chunk.js.map",
+    "index.html": "/portfolio-aditya/index.html",
+    "static/css/main.e7f3b300.chunk.css.map": "/portfolio-aditya/static/css/main.e7f3b300.chunk.css.map",
+    "static/js/2.1e28416e.chunk.js.LICENSE.txt": "/portfolio-aditya/static/js/2.1e28416e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b475f16c.js",
+    "static/js/2.1e28416e.chunk.js",
+    "static/css/main.e7f3b300.chunk.css",
+    "static/js/main.1bbb4037.chunk.js"
+  ]
+}
