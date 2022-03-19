@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const Footer: React.FunctionComponent = () => {
   const classes = useStyles();
+  const currentYear = new Date().getFullYear();
   return (
     <Box pb={4} mt={4} className={classes.footer}>
       <Typography
@@ -25,7 +26,7 @@ export const Footer: React.FunctionComponent = () => {
         Made by Aditya
       </Typography>
       <Typography variant="body1" component="span" color="textPrimary">
-        &copy; 2021
+        &copy; {currentYear}
       </Typography>
     </Box>
   );
