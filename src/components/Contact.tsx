@@ -39,21 +39,6 @@ export const Contact: React.FunctionComponent = () => {
             className={classes.icon}
           />
         </Link>
-
-        <Link
-          href="https://www.linkedin.com/in/aditya-bevoor-072613183/"
-          target="_blank"
-          rel="noopener"
-          className={classes.iconLink}
-        >
-          <Icon
-            iconType={IconType.linkedin}
-            width={38}
-            height={38}
-            className={classes.icon}
-          />
-        </Link>
-
         <Link
           href="mailto:adityabev@gmail.com"
           className={classes.iconLink}
